@@ -9,4 +9,4 @@ setInterval(() => fetch('/count').then(resolve => {
         }
     })
 
-}), 1000)
+}), 5 * 60 * 1000) // interval of 5 minutes

@@ -6,7 +6,7 @@ const log = require('./logger')
 
 client.connect()
     .then(() => {
-        app.set('views', '../views');
+        app.set('views', 'views');
         app.set('view engine', 'pug')
         const collection = client.db("counter").collection("users");
         const route = require('./routes');
