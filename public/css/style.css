@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: azure;
+    font-size: 5rem;
+}
+
+#counter {
+    margin: 2rem;
+    font-size: 10rem;
+}

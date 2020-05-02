@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    title= 'Simple Counter'
+  style
+    include ../public/css/style.css
+  body
+    .content This page opened
+      b#counter= count
+      .
+        users
+    script
+      include ../public/scripts/updateCount.js
+        
