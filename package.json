@@ -3,7 +3,7 @@
   "author": "Oleh Mell",
   "dependencies": {
     "express": "^4.17.1",
-    "log4js": "^6.2.1",
+    "log4js": "^6.4.0",
     "mongodb": "^3.5.7",
     "nodemon": "^2.0.3",
     "pug": "^2.0.4"
